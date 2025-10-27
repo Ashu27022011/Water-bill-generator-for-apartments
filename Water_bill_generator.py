@@ -1,4 +1,4 @@
-'''
+
 import pandas as pd
 from openpyxl import load_workbook
 from openpyxl.worksheet.table import Table, TableStyleInfo
@@ -73,4 +73,4 @@ ws = wb.active
 
 wb.save(file_name)
 print("✅ Excel table created successfully as 'water bill.xlsx'")
-'''
+
