@@ -23,8 +23,8 @@ balaces = input("enter the balance amount if zero enter all zero or no")
 
 #if all values are zero
 if balaces.lower() == "all zero":
-    balacess = {g : 0 for g in db.beginning_readings.keys()}   
-    db.balance = balacess
+    balll = {g : 0 for g in db.beginning_readings.keys()}   
+    db.balance = balll
 
 # if it is not zero  
 elif balaces.lower() == "no":
@@ -41,3 +41,4 @@ else:
 #signify successful saving of data
 print("your beginning readings and balance are saved successfully.")    
     
+
