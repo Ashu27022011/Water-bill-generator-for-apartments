@@ -30,7 +30,7 @@ if balaces.lower() == "all zero":
 elif balaces.lower() == "no":
     for bal in k:
         balance = float(input(f"Enter balance for flat {bal}: "))
-        balll[bal] = int(balance)
+        balll[bal] = balance
     db.balance = balll
     # Assigning the balance amounts to the database
 
@@ -41,4 +41,5 @@ else:
 #signify successful saving of data
 print("your beginning readings and balance are saved successfully.")    
     
+
 
