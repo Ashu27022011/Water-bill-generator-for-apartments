@@ -10,6 +10,7 @@ print("enter the ending readings separated by commas:")
 for end in database.beginning_readings.keys():
     e = float(input(f"Ending reading for flat {end}: "))
     database.ending_readings[end] = int(e)
+
 unit_price = (input("enter the unit price: "))
 month = input("enter the month: ")
 year = input("enter the year: ")
@@ -19,7 +20,7 @@ balancel = list(database.balance.values())
 beg_redl = list(database.beginning_readings.values())
 end_redl = list(database.ending_readings.values())
 flat_no  =  list(database.beginning_readings.keys())
-unit_no = [unit_no]*9
+unit_no = [unit_price]*len(flat_no)
 
 # Calculating total units consumed
 total_units = []
@@ -102,3 +103,4 @@ time.sleep(1)
 print("in 1..")
 time.sleep(1)
 print("✅ Excel table created successfully as 'water bill.xlsx'")
+
