@@ -21,7 +21,6 @@ Managing monthly water bills manually can be time-consuming and prone to errors.
 ## 🛠️ Technologies Used
 
 * Python
-* Streamlit
 * OpenPyXL
 * Pandas
 * NumPy
@@ -48,9 +47,7 @@ pip install -r requirements.txt
 
 Run the application:
 
-```bash
-streamlit run app.py
-```
+
 
 > Replace **app.py** with your main Python file if it has a different name.
 
